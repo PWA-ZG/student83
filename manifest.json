@@ -1,0 +1,22 @@
+{
+    "name": "CameraPWA",
+    "short_name": "CameraPWA",
+    "description": "PWA app that uses camera and adds borders on image",
+    "display": "standalone",
+    "theme_color": "red",
+    "background_color": "#DDD",
+    "start_url": "/index.html",
+    "scope": ".",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
+    "lang": "en-US",
+    "icons": [{
+        "src": "public/img/camera_icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "serviceworker": {
+        "src": "/sw.js",
+        "scope": "/"
+    }
+}

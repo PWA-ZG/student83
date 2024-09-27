@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Camera PWA</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="public/stylesheets/styles.css" />
+  </head>
+  <body class="body-style">
+    <h2>
+      Stvorite zabavnu galeriju fotografija sa šarenim i vrlo modernim obrubima!
+    </h2>
+    <div class="quote-style">
+        <span>Citat dana: </span>
+        <span id="quote"></span>
+    </div>
+    <video id="video" autoplay class="video-style"></video>
+    <div class="button-container">
+      <button id="snap" class="snap-button">
+        Snap Photo
+      </button>
+    </div>
+    <div class="margin-style">
+      <h2>Vaša galerija:</h2>
+    </div>
+    <div id="imageList"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
